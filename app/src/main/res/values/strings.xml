@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">4PR</string>
+    <string name="first_app">My First App!</string>
+    <string name="edit_message">Enter your message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+</resources>

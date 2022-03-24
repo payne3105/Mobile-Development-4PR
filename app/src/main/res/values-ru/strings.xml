@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4ПР</string>
+    <string name="first_app">Мое первое приложение</string>
+    <string name="edit_message">Введите свое сообщение</string>
+    <string name="button_send">Отправить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+</resources>

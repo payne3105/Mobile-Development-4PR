@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4PR</string>
+    <string name="first_app">Mi primera aplicación!</string>
+    <string name="edit_message">Ingrese mensaje</string>
+    <string name="button_send">Enviar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Buscar</string>
+</resources>
