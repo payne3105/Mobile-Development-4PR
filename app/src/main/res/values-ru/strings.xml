@@ -6,4 +6,6 @@
     <string name="button_send">Отправить</string>
     <string name="action_settings">Настройки</string>
     <string name="action_search">Поиск</string>
+    <string name="sample">Тест</string>
+    <string name="greetings">Привет, </string>
 </resources>

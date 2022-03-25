@@ -6,4 +6,6 @@
     <string name="button_send">Enviar</string>
     <string name="action_settings">Ajustes</string>
     <string name="action_search">Buscar</string>
+    <string name="sample">Prueba</string>
+    <string name="greetings">Hola, </string>
 </resources>

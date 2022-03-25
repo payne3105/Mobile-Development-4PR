@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/insertText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="300dp"
+        android:text="@string/first_app"
+        android:textSize="18sp"
+        />
+
     <EditText
         android:id="@+id/textEdit"
         android:layout_width="228dp"
@@ -13,11 +26,12 @@
         android:layout_marginStart="32dp"
         android:autofillHints="test"
         android:hint="@string/edit_message"
-        android:inputType="text"
+        android:text="@string/sample"
         app:layout_constraintBottom_toBottomOf="@+id/buttonSend"
         app:layout_constraintRight_toLeftOf="@+id/buttonSend"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonSend" />
+        app:layout_constraintTop_toTopOf="@+id/buttonSend"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/buttonSend"
@@ -33,6 +47,7 @@
         />
 
     <androidx.appcompat.widget.ActionMenuView
+        android:id="@+id/actionMenuView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
