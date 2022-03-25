@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    View searchButton;
+    Button searchButton;
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         findId();
+        messageSend();
     }
 
     @Override
@@ -30,6 +34,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void findId() {
-        searchButton = findViewById(R.id.action_search);
+        searchButton = (Button) findViewById(R.id.action_search);
+        editText = (EditText) findViewById(R.id.textEdit);
     }
+
+
+    public void messageSend() {
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String inputText = editText.getText().toString().trim();
+
+            }
+        });
+    }
+
 }
